@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+header{
+    height: 80px;
+    text-align: center;
+    align-items: center;
+    background-color: aqua;
+}
+main{
+    width: 80vw;
+    margin: auto;
+    padding: 10px;
+    background-color: black;
+}
+.fundo{
+    background-color: rgba(0, 255, 255, 0.589);
+    margin: 10px auto;
+    padding: 5px;
+    width: 500px;
+    height: auto;
+}
+h2{
+    text-align: center;
+    font-size: 1.4em;
+}
+.container{
+    margin: 10px auto;
+    text-align: center;
+    width: 300px;
+    background-color: aqua;
+    border: 1px solid black;
+    display: flex;
+}
+.teste{
+    margin: 3px;
+    background-color: black;
+    color: white;    
+    display: block;
+}
+.teste1{ 
+    flex: 1; /* Faz com que os itens fiquem preenchidos no espaço do container */
+    background-color: black;    
+    color: white;
+    margin: 3px;
+    padding: 5px;
+}
+.block{
+    display: block;
+}
+.flex-wrap{
+    flex-wrap: wrap; /* Quebra a linha assim chegar no fim do container, por padrão vem nowrap, no qual não possui quebra de linha*/
+}
+.flex-wrap-reverse{
+    flex-wrap: wrap-reverse;
+}
+/*Segundo Item*/
+.itens{
+    flex: 1;
+    background-color: black;
+    color: white;
+    margin: 3px;
+}
+.row{
+    flex-direction: row;
+}
+.row-reverse{
+    flex-direction: row-reverse;
+}
+.column{
+    flex-direction: column;
+}
+.column-reverse{
+    flex-direction: column-reverse;
+}
+/*Terceiro item*/
+.flex-start{
+    justify-content: flex-start;
+}
+.flex-end{
+    justify-content: flex-end;
+}
+.center{
+    justify-content: center;
+}
+.space-between{
+    justify-content: space-between;
+}
+.space-around{
+    justify-content: space-around;
+}
+/*Quarto item*/
+.flex-start2{
+    align-items: flex-start;
+}
+.flex-end2{
+    align-items: flex-end;
+}
+.center2{
+    align-items: center;
+}
+.baseline{
+    align-items: baseline;
+}
+/*Quinto item*/
+.flex-start3{
+    height: 150px;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+.flex-end3{
+    height: 150px;
+    align-content: flex-end;
+    flex-wrap: wrap;
+}
+.center3{
+    height: 200px;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.space-between3{
+    height: 300px;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+.space-around3{
+    height: 300px;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
