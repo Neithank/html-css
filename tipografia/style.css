@@ -1,0 +1,63 @@
+@charset "UTf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+/*#034159
+#025951
+#02735E
+#038C3E
+#0CF25D
+*/
+
+body{
+    background-image: linear-gradient(to top, #034159, #025951, #02735E);
+    background-attachment: fixed;
+}
+
+main{
+    background-color:  white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 8px 8px 10px #034159;
+    margin: auto;
+    width: 500px;
+}
+
+h1{
+    background-image: linear-gradient(to right, #038C3E, #02735E); color: #0CF25D;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    font: italic bolder 1.5em 'Dancing Script'; 
+    font-family: 'Kaushan Script', cursive;
+}
+
+h2{
+    background-image: linear-gradient(to left, #025951, transparent); color: #0CF25D;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: right;
+    font: normal bold 1.3em 'Kaushan Script', cursive, sans-serif;
+}
+
+h3{
+    background-image: linear-gradient(to right, #025951, transparent); color: #0CF25D; 
+    border-radius: 5px;
+    padding: 5px;
+    text-align: left;
+    font: normal lighter 1.2em 'Bungee Spice', cursive, serif;
+}
+
+p{
+    text-align: justify;
+    font: normal bold 0.9em 'PT Mono', monospace, sans-serif;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5em;
+}
+    

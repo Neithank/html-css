@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Classes</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+        /* 
+        #111C26
+        #426A8C
+        #2A4359
+        #5B89A6
+        #99D9F2
+        */
+        body{
+            font: normal bold 1em serif;
+            background-image: linear-gradient(to left, #111C26, #426A8C );
+            background-attachment: fixed;
+        }
+
+        div{
+            width: 300px;   
+            height: 300px;
+            background-color: #2A4359; color: white;
+            font-family: 'Kaushan Script', cursive, arial, verdana, sans-serif;
+            text-align: center;
+            display: inline-block;   
+        }
+        div:hover{
+            background-color: #99D9F2; color: black
+        }
+        div#d3 > p {
+            display: none;
+        }
+        div#d3:hover > p {
+            display: block;
+            font-family: 'Bungee Spice', cursive, arial, sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+    <h1> Finalmente voltando a utilizar nossas Pseudo-Classes</h1>
+    
+    <div id="d1"> Iremos ter 3 divs como exemplo</div>
+    <div id="d2"> Estaremos passando um ID para cada uma</div>
+    <div id="d3"> E brincaremos com  Houver
+        <p> Ei?</p>
+        <p> Existe a possibilidade de ter um paragrafo dentro, lembra?<p> 
+    </div>
+
+</body>
+</html>
