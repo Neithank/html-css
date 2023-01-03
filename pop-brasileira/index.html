@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>População Brasileira</title>
+
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: antiquewhite;
+            margin: 0px;
+        }
+        header{
+            text-align: center;
+        }
+        table{
+            border-collapse: collapse;
+            width: 600px;
+            height: 600px;
+            position: relative;
+            margin: auto;
+            background-color: white;
+        }
+        /*div#Tabela{
+            overflow-x: auto;
+            margin: 10px;
+        }
+        Caso fique habilitado o filtro da tabela não terá rolagem continua...
+        */
+        caption{
+            background-color: gray;
+            color: white;
+            padding: 10px;
+            border: 1px solid black;
+            font: bolder normal 1.1em verdana;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 5px;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            color: white;
+            background-color: gray;
+        }
+        thead, tfoot{
+            background-color: gray;
+            color: white;
+        }
+        .dest{
+            font-weight: bolder;
+            background-color: lightgray;
+        }
+        .num{
+            text-align: right;
+        }
+
+        article{
+            width: 600px;
+            border: 2px solid black;
+            border-radius: 10px;
+            text-align: justify;
+            margin: 10px auto;
+            background-color: white;
+        }
+
+        article h2{
+            background-color: black;
+            color: white;
+            border-radius: 5px 5px 0px 0px;
+            margin: 0px;
+            padding: 10px;
+        }
+        article p{
+            padding: 10px;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            font-weight: bolder;
+            text-align: center;
+            padding: 5px;
+        }
+    
+    </style>
+</head>
+<body>
+    <header>
+        <h1> Segue abaixo a tabela com os dados da população braileira.</h1>
+    </header>
+        <div id="Tabela">
+            <table>
+                <caption> Estimativa da população residente no Brasil e Unidades da Ferderação com daa de referência em 1° de Julho de 2021 </caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Brasil e Unidades da Federação</th>
+                        <th scope="col">População</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="dest">
+                        <td>Região Norte</td>
+                        <td class="num">18.906.962</td>
+                    </tr>
+                    <tr>
+                        <td>Pará</td>
+                        <td class="num">8.777.124</td>
+                    </tr>
+                    <tr>
+                        <td>Amazonas</td>
+                        <td class="num">4.269.995</td>
+                    </tr>
+                    <tr>
+                        <td>Rondônia</td>
+                        <td class="num">1.8156278</td>
+                    </tr>
+                    <tr>
+                        <td>Tocantins</td>
+                        <td class="num">1.607.363</td>
+                    </tr>
+                    <tr>
+                        <td>Acre</td>
+                        <td class="num">906.876</td>
+                    </tr>
+                    <tr>
+                        <td>Amapá</td>
+                        <td class="num"> 877.613</td>
+                    </tr>
+                    <tr>
+                        <td>Roraima</td>
+                        <td class="num"> 652.713</td>
+                    </tr>
+                    <tr class="dest">
+                        <td>Região Nordeste</td>
+                        <td class="num"> 57.667.842</td>
+                    </tr>
+                    <tr>
+                        <td>Bahia</td>
+                        <td class="num"> 14.985.284<sup>3</sup></td>
+                    </tr>
+                    <tr>
+                        <td>Pernambuco</td>
+                        <td class="num"> 9.674.793<sup>2</sup></td>
+                    </tr>
+                    <tr>
+                        <td>Ceará</td>
+                        <td class="num"> 9.240.580<sup>1</sup></td>
+                    </tr>
+                    <tr>
+                        <td>Maranhão</td>
+                        <td class="num"> 7.153.262</td>
+                    </tr>
+                    <tr>
+                        <td>Paraíba</td>
+                        <td class="num"> 4.059.905</td>
+                    </tr>
+                    <tr>
+                        <td>Rio Grande do Norte</td>
+                        <td class="num"> 3.560.903<sup>1</sup></td>
+                    </tr>
+                    <tr>
+                        <td>Alagoas</td>
+                        <td class="num"> 3.365.351<sup>2</sup></td>
+                    </tr>
+                    <tr>
+                        <td>Piauí</td>
+                        <td class="num"> 3.289.290<sup>1</sup></td>
+                    </tr>
+                    <tr>
+                        <td>Sergipe</td>
+                        <td class="num"> 2.338.474<sup>3</sup></td>
+                    </tr>
+                    <tr class="dest">
+                        <td>Região Sudeste</td>
+                        <td class="num"> 89.632.912</td>
+                    </tr>
+                    <tr>
+                        <td> São Paulo</td>
+                        <td class="num"> 46.649.132</td>
+                    </tr>
+                    <tr>
+                        <td> Minas Gerais</td>
+                        <td class="num"> 21.411.923</td>
+                    </tr>
+                    <tr>
+                        <td> Rio de Janeiro</td>
+                        <td class="num"> 17.463.349</td>
+                    </tr>
+                    <tr>
+                        <td> Espirito Santo</td>
+                        <td class="num"> 4.108.508</td>
+                    </tr>
+                    <tr class="dest">
+                        <td>Região Sul</td>
+                        <td class="num"> 30.402.587</td>
+                    </tr>
+                    <tr>
+                        <td> Paraná</td>
+                        <td class="num"> 11.597.484</td>
+                    </tr>
+                    <tr>
+                        <td> Rio Grande do Sul</td>
+                        <td class="num"> 11.466.630</td>
+                    </tr>
+                    <tr>
+                        <td> Santa Catarina</td>
+                        <td class="num"> 7.338.473</td>
+                    </tr>
+                    <tr class="dest">
+                        <td>Região Centro-Oeste</td>
+                        <td class="num"> 16.707.336</td>
+                    </tr>
+                    <tr>
+                        <td> Goiás</td>
+                        <td class="num"> 7.206.589<sup>4</sup></td>
+                    </tr>
+                    <tr>
+                        <td> Distrito Federal</td>
+                        <td class="num"> 3.094.325<sup>4</sup></td>
+                    </tr>
+                    <tr>
+                        <td> Mato Grosso</td>
+                        <td class="num"> 3.567.234</td>
+                    </tr>
+                    <tr>
+                        <td> Mato Grosso do Sul</td>
+                        <td class="num"> 2.839.188</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th scope="row">Brasil</th>
+                        <td class="num">213.317.639</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+
+        <main>
+            <article>
+                <h2> Fonte: IBGE. Diretoria de Pesquisas - DPE - Coordenação de População e Indicadores Sociais - COPIS.
+                </h2>
+                <p><sup>1</sup> = Diferença de 786 pessoas entre os Estados do Piauí e Ceará com relação a Projeção da População para o Brasil e Unidades da Federação 2021, para o ano de 2021, em virtude de alteração de limites entre municípios na fronteira interestadual.
+                </p>
+                <p><sup>2</sup> = Diferença de 456 pessoas entre os Estados de Alagoas e Pernambuco com relação a Projeção da População para o Brasil e Unidades da Federação 2021, para o ano de 2021, em virtude de alteração de limites entre municípios na fronteira interestadual.
+                </p>
+                <p><sup>3</sup> = Diferença de 214 pessoas entre os Estados de Sergipe e Bahia com relação a Projeção da População para o Brasil e Unidades da Federação 2021, para o ano de 2021, em virtude de alteração de limites entre municípios na fronteira interestadual.
+                </p>
+                <p><sup>4</sup> = Diferença de 2.658 pessoas entre o Estado de Goiás e o Distrito Federal com relação a Projeção da População para o Brasil e Unidades da Federação 2021, para o ano de 2021, em virtude de alteração de limites entre municípios na fronteira interestadual.
+                </p>
+            </article>
+        </main>
+        <footer>
+            &copy;Visska
+        </footer>
+</body>
+</html>

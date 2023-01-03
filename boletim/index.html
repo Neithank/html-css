@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio4</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        header{
+            margin-top: 20px;
+        }
+        table{
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        #bol{
+            overflow-x: auto;
+            margin: 0px 30px;
+        }
+        caption{
+            font: bolder normal 2em verdana;
+            padding: 20px;
+        }
+        th,td{
+            border: 2px solid black;
+            padding: 20px;
+        }
+        th{
+            background-color: gray;
+            color: white;
+        }
+        .media{
+            background-color: gray;
+            color: white;
+            font-weight: bolder;
+        }
+        .gr{
+            background-color: white;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1> Realizando um Boletim Escolar com Tabela</h1>
+    </header>
+
+    <div id="bol">
+        <table>
+            <caption> Boletim Escolar</caption>
+            <thead>
+                <tr>
+                    <th scope="col" rowspan="2"> Área </th>
+                    <th scope="col" rowspan="2"> Disciplinas </th>
+                    <th scope="colgroup" colspan="2"> Notas </th>
+                    <th scope="col" rowspan="2"> Média </th>
+                </tr>
+                <tr>
+                    <th scope="col"> Nota 1 </th>
+                    <th scope="col"> Nota 2 </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="rowgroup" rowspan="4" class="gr"> Exatas </th>
+                    <td> Matemática </td>
+                    <td> 10.0 </td>
+                    <td> 10.0 </td>
+                    <td> 10.0 </td>
+                </tr>
+                <tr>
+                    <td> Física </td>
+                    <td> 10.0 </td>
+                    <td> 10.0 </td>
+                    <td> 10.0 </td>
+                </tr>
+                <tr>
+                    <td> Quimica </td>
+                    <td> 10.0 </td>
+                    <td> 10.0 </td>
+                    <td> 10.0 </td>
+                </tr>
+                <tr>
+                    <td> Biologia </td>
+                    <td> 10.0 </td>
+                    <td> 10.0 </td>
+                    <td> 10.0 </td>
+                </tr>
+                <tr class="media">
+                    <th scope="row" colspan="4"> Média de Exatas </th>
+                    <td  class="media"> 10.0 </td>
+                </tr>
+                <tr>
+                    <th scope="rowgroup" rowspan="2" class="gr"> Humanas</th>
+                    <td> História </td>
+                    <td> 10.0 </td>
+                    <td> 10.0 </td>
+                    <td> 10.0 </td>
+                </tr>
+                <tr>
+                    <td> Geografia </td>
+                    <td> 10.0 </td>
+                    <td> 10.0 </td>
+                    <td> 10.0 </td>
+                </tr>
+                <tr>
+                    <th scope="row" colspan="4"> Média de Humanas </th>
+                    <td  class="media"> 10.0 </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
