@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+}
+
+#cel{
+    height: 630px;
+    width: 315px;
+    margin-top: -80px;
+    margin-left: -22px;
+}
+#cel > iframe{
+    margin-top: 80px;
+    margin-left: 22px;
+    position: absolute;
+}
+.icone{
+    border-radius: 12px 12px;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+}
+#home{
+    border-radius: 50%;
+    margin-left: -183px;
+    margin-top: 555px;
+    width: 55px;
+    height: 55px;
+}
+#face{
+    margin-left: -258px;
+    margin-top: 100px;
+}
+#insta{
+    margin-left: -183px;
+    margin-top: 100px;
+}
+#twitter{
+    margin-left: -108px;
+    margin-top: 100px;
+}
+#yt{
+    margin-left: -258px;
+    margin-top: 170px;
+}
+#git{
+    margin-left: -183px;
+    margin-top: 170px;
+}
+#clash{
+    margin-left: -108px;
+    margin-top: 170px;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
