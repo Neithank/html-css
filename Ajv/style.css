@@ -17,11 +17,6 @@ body, html {
     height: 100px;
     
 }
-#header pre,h1{
-    margin: 10px;
-    box-sizing: border-box;
-}
-
 #main{
     padding: 10px;
     box-sizing: border-box;
