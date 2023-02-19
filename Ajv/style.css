@@ -1,0 +1,83 @@
+@charset "UTF-8";
+body, html {
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient( to bottom, black, gray, darkgray);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#header{
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    height: 100px;
+    
+}
+#header pre,h1{
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+#main{
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    height: calc(100vh - 151px);
+}
+
+#container p{
+    width: 70%;
+    margin: auto;
+}
+#clicks{
+    color: black;
+    font-size: 1.3rem;
+}
+
+
+.btn{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    cursor: pointer;
+    background-image: linear-gradient(to bottom, gray, white, gray);
+    color: black;
+    font-weight: bolder;
+    font-size: 1rem;
+    text-align: center;
+    border: 0;
+    box-shadow: 3px 2px 0 3px rgba(0,0,0,0.5);
+    
+    transition: 0.2s ease;
+    transform: 0.2s ease;
+}
+
+.btn:active{
+    background-image: linear-gradient(to bottom, black, gray, black);
+    color: white;
+    font-weight: bolder;
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.5), inset 3px 3px 3px rgba(255, 255, 255, 0.5);
+    transform: translate(3px, 3px);
+}
+
+#btn_s{
+    display: none;
+}
+#btn_n{
+    display: none;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+footer{
+    text-align: center;
+    font-weight: bolder;
+}
