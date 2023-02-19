@@ -13,11 +13,11 @@ body, html{
 
 #header{
     text-align: center;
-    margin: 10px;
+    margin: auto;
 }
 
 #container{
-    width: 400px;
+    width: 300px;
     margin: auto;
     text-align: justify;
 }
